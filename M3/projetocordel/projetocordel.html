@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../../Imagens/cursoemvídeologo.png" type="image/x-icon">
     <title> Cordel Moderno </title>
     <style>
         header {
@@ -10,11 +11,26 @@
             padding: 50px;
             background-color: black;
             color: white;
-            font-family: Arial, Helvetica, sans-serif;
+        }
+        header h1{
+            @font-face {
+                font-family: 'Passion';
+                src: url('C:\xampp\htdocs\Meus códigos\Cursoemvideo\HTML\M3\projetocordel\PassionOne-Bold.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+        }
+        header p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         header a {
+            text-decoration: none;
             color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             
+        }
+        main {
+
         }
         .a {
             text-align: left;
@@ -25,12 +41,16 @@
             background-image: url(background001.jpg);
         }
         footer {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: black;
             color: white;
             text-align: center;
             padding: 1px;
             border-radius: 0px 0px 10px 10px;
+        }
+        footer a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
@@ -113,7 +133,7 @@
             </div>
     </main>
     <footer>
-        <p> Site criado por <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external"> Gustavo Guanabara </a> para o <a href="https://www.cursoemvideo.com/" target="_blank" rel="external"> CursoemVideo </a></p>
+        <p> Site criado por <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external"> <b>Gustavo Guanabara</b> </a> para o <a href="https://www.cursoemvideo.com/" target="_blank" rel="external"> <b>CursoemVideo</b> </a></p>
     </footer>
 </body>
 </html>
