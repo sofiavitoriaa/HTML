@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+        font-family: "Passion";
+        src: url(Cursoemvideo\HTML\M3\projetocordel\PassionOne-Bold.ttf) format("truetype");
+        font-weight: normal;
+    }
+@font-face {
+    font-family: "Sriracha";
+    src: url(Cursoemvideo\HTML\M3\projetocordel\Sriracha-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+    :root{
+        --fonte-padrao: Verdana, sans-serif;
+        --fonte-destaque: 'Passion', cursive;
+        --fonte-texto: 'Sriracha', cursive;
+    }
+header h1{
+    font-family: var(--fonte-destaque);
+}
+header p{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+header a{
+    color: black;
+    text-decoration: none;
+}
+main {
+    font-family: var(--fonte-texto);
+}
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
