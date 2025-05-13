@@ -62,7 +62,15 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgb(0, 0, 0.253);
+    background-color: rgb(0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01 {
+    background-image: url(background001.jpg);
+    background-position: right center;
+}
+section#img02 {
+    background-image: url(background002.jpg);
 }
 footer {
     background-color: black;
